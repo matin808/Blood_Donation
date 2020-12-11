@@ -26,7 +26,9 @@ function Developer() {
 
                     <h2 className = "developer__name">Matin Kadri</h2>
                     <h3 className = "developer__skill">Developer</h3>
-                    <p>Hello World, Welcome to We For You Organization</p>
+                    <p>Hello World, Welcome to We For You Organization
+                    
+                    </p>
 
                     </div>
 
@@ -62,9 +64,6 @@ function Developer() {
                     <p>Hello World, Welcome to We For You Organization</p>
 
                     </div>
-
-
-
                 </div>
 
 
