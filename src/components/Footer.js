@@ -23,8 +23,8 @@ function Footer() {
 
                     <Link to = "/"> <li className = "footer__link"> <AppsSharpIcon />Home</li></Link>
                     <Link to = "/center"><li className = "footer__link"><DirectionsRunSharpIcon />Centers</li></Link>
-                    <Link to = "/"><li className = "footer__link"><CodeIcon />Developer</li></Link>
-                    <Link to = "/"> <li className = "footer__link"><InfoIcon />About</li></Link>
+                    <Link to = "/developer"><li className = "footer__link"><CodeIcon />Developer</li></Link>
+                    <Link to = "/about"> <li className = "footer__link"><InfoIcon />About</li></Link>
                     </ul>
          </div>
 

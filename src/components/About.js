@@ -1,12 +1,14 @@
 import '../styles/About.css';
-// import Banner from '../images/banner.jpg'
 import Banner from '../images/Banner2.png'
+import MobileBanner from '../images/banner.jpg'
 
 function About() {
     return (
         <div className = "about">
         <div className = "about__banner">
             <img className = "img-fluid about__bannerImage" src = {Banner} alt = "Banner" />
+            <img className = "img-fluid about__bannerImage__mobile" src = {MobileBanner} alt = "Banner" />
+           
         </div>
 
         <div className = "about__main">

@@ -29,7 +29,7 @@ import {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink className = "header__ul_active nav-link active" href="/">Home</NavLink>
+              <NavLink className = "header__ul nav-link active" href="/">Home</NavLink>
             </NavItem>
               <NavItem>
               <NavLink className = "header__ul" href="/center/">Centers</NavLink>
