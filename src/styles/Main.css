@@ -1,0 +1,173 @@
+.main__first {
+  height: 85vh;
+}
+
+.main__quote {
+  padding-top: 18vh;
+  line-height: 70px;
+  font-size: 55px;
+  font-family: "Fredoka One", cursive;
+  font-weight: 100 !important;
+  color: rgb(170, 216, 110);
+}
+
+.main__bold {
+  color: green;
+}
+
+.main__second__heartbenefits {
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(51, 50, 50);
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+}
+
+.main__second__bold {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.main__image {
+  width: 60vh;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.btn {
+  margin: 30px 10px !important;
+  width: 150px !important;
+  padding: 10px !important;
+  border-radius: 20px !important;
+}
+
+.btn-first {
+  background-color: darkorange !important;
+}
+
+.btn-first:hover {
+  color: white !important;
+  background-color: red !important;
+}
+
+.btn-second {
+  background: transparent !important;
+  border: 1px solid darkorange !important;
+  color: #333 !important;
+}
+
+.btn-second:hover {
+  color: white !important;
+  background-color: darkorange !important;
+}
+
+.main__highlight {
+  color: lightgreen !important;
+}
+
+.main__second__image {
+  margin-top: 40px;
+  width: 55vh;
+}
+
+.main__second__center {
+  text-align: center;
+  margin-top: -20px;
+  color: darkorange;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+}
+
+.main__second__heart {
+  padding-top: 10vh;
+}
+
+.main__second__heartbenefits {
+  font-weight: 400;
+  font-size: 21px;
+  color: rgb(63, 62, 62);
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Third Component */
+
+.main__third {
+  height: 60vh;
+}
+.main__third__image {
+  width: 50vh;
+  margin-left: 100px;
+}
+
+.main__third__bold {
+  font-weight: 500;
+  font-size: 19px;
+  color: rgb(0, 0, 0);
+  font-family: "Work Sans", serif;
+  line-height: 2px;
+}
+
+.main__third__heartbenefits {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  color: rgb(70, 69, 69);
+  font-family: "Work Sans", sans-serif;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 350px) {
+  .main__image {
+    margin-left: 10px;
+    width: 45vh;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main__second__center {
+    margin-top: 170px;
+  }
+
+  .main__third__image {
+    margin-left: 10px;
+    padding-bottom: 170px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .main__second__center {
+    margin-top: 170px;
+  }
+
+  .main__third__image {
+    margin-left: 10px;
+    padding-bottom: 170px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .main__second__center {
+    margin-top: 345px;
+  }
+
+  .main__third__image {
+    margin-left: 10px;
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main__image {
+    margin-left: 10px;
+    width: 50vh;
+  }
+  .main__quote {
+    padding-top: 8vh;
+    line-height: 55px;
+    font-size: 40px;
+    font-family: "Fredoka One", cursive;
+  }
+}

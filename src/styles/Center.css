@@ -1,0 +1,33 @@
+.center {
+  padding: 2%;
+}
+
+.row {
+  margin: 2%;
+}
+
+.center__heading {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.center__address {
+  color: rgb(124, 120, 113);
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: cursive;
+}
+
+.center__slogan {
+  font-family: sans-serif;
+  color: rgb(52, 14, 63);
+  font-weight: 500;
+  line-height: 5vh;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 412px) {
+  .center {
+    margin-bottom: -350px;
+  }
+}

@@ -1,0 +1,54 @@
+.header {
+  background-color: #ffffff;
+}
+/* position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1; */
+.header__logo {
+  height: 10vh;
+  width: 12vh;
+  padding: 10px;
+}
+
+.navbar-light {
+  background-color: red !important;
+}
+
+.header__ul {
+  font-family: "Fredoka One", cursive;
+  color: black;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.header__ul_active {
+  font-family: "Fredoka One", cursive;
+  color: red;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.header__ul:hover {
+  color: red;
+}
+
+.header__ul_active:hover {
+  color: red;
+}
+
+.header__brandName {
+  font-family: "Itim", cursive;
+  font-size: 2rem !important;
+  color: red;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 350px) {
+  .header__logo {
+    height: 8vh;
+    width: 10vh;
+    padding: 5px;
+  }
+}
