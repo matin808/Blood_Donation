@@ -1,12 +1,13 @@
-import React from 'react'
+import Form from './Form';
+import BloodData from './BloodData';
+
 
 function Donate() {
+
     return (
         <div className = "donate">
-        
-        <h1>Donate Blood</h1>
-        
-            
+        <Form />   
+        <BloodData />
         </div>
     )
 }

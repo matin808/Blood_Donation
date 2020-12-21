@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.2.0",
     "aos": "^2.3.4",
     "bootstrap": "^4.5.3",
+    "firebase": "^8.2.1",
     "framer-motion": "^2.9.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
