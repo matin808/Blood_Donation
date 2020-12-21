@@ -45,9 +45,7 @@ import {
         </Collapse>
       </Navbar> 
      </div>
-   );
-
-     
+   );     
  }
 
  export default Header;

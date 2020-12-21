@@ -5,10 +5,16 @@ import Anup from '../images/anup.png';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
-import GitHubIcon from '@material-ui/icons/GitHub';
 import InfoIcon from '@material-ui/icons/Info';
+import Aos from "aos";
+import {useEffect} from "react";
 
 function Developer() {
+
+    useEffect(() => {
+        Aos.init({duration : 2000});
+      }, []);
+
     return (
         <div className = "developer">
             <div className = "container developer__container">
@@ -16,7 +22,7 @@ function Developer() {
                 <div className = "row">
                     <div className = "col-md-4 profile text-center developer__profile">
                         <div className = "img-box developer__image">
-                            <img className = "img-responsive developer__matin" src = {Matin} alt ="Matin" />
+                            <img data-aos="flip-left" className = "img-responsive developer__matin" src = {Matin} alt ="Matin" />
                                 <ul className = "developer__ul">
                                <a href = "https://instagram.com/matin_kadri"><li className = "developer__li"> <InstagramIcon /> </li></a>
                                <a href = "https://www.linkedin.com/in/matin-kadri-b129831a1/"><li className = "developer__li"> <LinkedInIcon /> </li></a>
@@ -26,7 +32,7 @@ function Developer() {
 
                     <h2 className = "developer__name">Matin Kadri</h2>
                     <h3 className = "developer__skill">Developer</h3>
-                    <p>Hello World, Welcome to We For You Organization
+                    <p className = "developer__about">Hey, This is Abdul Matin Kadri, I am MERN Stack Developer have done Intership at Cloud Counselage as a Web Developer. And Currently Working as a Freelancer. 
                     
                     </p>
 
@@ -34,7 +40,7 @@ function Developer() {
 
                     <div className = "col-md-4 profile text-center developer__profile">
                         <div className = "img-box developer__image">
-                            <img className = "img-responsive developer__anup" src = {Anup} alt ="Anup" />
+                            <img data-aos="flip-left"className = "img-responsive developer__anup" src = {Anup} alt ="Anup" />
                                 <ul className = "developer__ul">
                                <a href = "https://www.instagram.com/khedekar_anup/"><li className = "developer__li"> <InstagramIcon /> </li></a>
                                <a href = "https://www.linkedin.com/in/yash-singh-7a8a7b1bb"><li className = "developer__li"> <LinkedInIcon /> </li></a>
@@ -44,14 +50,14 @@ function Developer() {
 
                     <h2 className = "developer__name">Anup Khedekar</h2>
                     <h3 className = "developer__skill">Developer</h3>
-                    <p>Hello World, Welcome to We For You Organization</p>
+                    <p className = "developer__about">Hello World, Welcome to We For You Organization</p>
 
                     </div>
 
 
                     <div className = "col-md-4 profile text-center developer__profile">
                         <div className = "img-box developer__image">
-                            <img className = "img-responsive developer__yash" src = {Yash} alt ="Yash" />
+                            <img data-aos="flip-right" className = "img-responsive developer__yash" src = {Yash} alt ="Yash" />
                                 <ul className = "developer__ul">
                                <a href = "https://www.instagram.com/_yashsinghh/"><li className = "developer__li"><InstagramIcon /></li></a>
                                <a href = "https://www.linkedin.com/in/yash-singh-7a8a7b1bb"><li className = "developer__li"><LinkedInIcon /></li></a>
@@ -61,16 +67,11 @@ function Developer() {
 
                     <h2 className = "developer__name">Yash Singh</h2>
                     <h3 className = "developer__skill">Developer</h3>
-                    <p>Hello World, Welcome to We For You Organization</p>
+                    <p className = "developer__about">Hello World, Welcome to We For You Organization</p>
 
                     </div>
                 </div>
-
-
-               
-
-
-                
+                              
 
             </div>
         </div>

@@ -6,7 +6,7 @@ import AppsSharpIcon from '@material-ui/icons/AppsSharp';
 import CodeIcon from '@material-ui/icons/Code';
 import InfoIcon from '@material-ui/icons/Info';
 import DirectionsRunSharpIcon from '@material-ui/icons/DirectionsRunSharp';
-import {Button } from '@material-ui/core';
+
 
 function Footer() {
     return (

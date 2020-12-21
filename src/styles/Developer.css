@@ -19,11 +19,6 @@
   margin: 10px auto;
 }
 
-/* .developer__matin {
-  width: 55vh;
-  height: 55vh;
-} */
-
 .developer__anup {
   width: 65vh;
   height: 64vh;
@@ -47,15 +42,37 @@
 }
 
 .developer__name {
-  font-size: 22px;
+  font-size: 1.7rem;
   font-weight: bold;
   margin-top: 15px;
+  color: rgba(24, 46, 45, 0.6);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .developer__skill {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 1.5rem;
   margin-top: 15px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(90, 10, 30, 0.6);
+}
+
+.developer__name:after {
+  content: "";
+  background: rgb(29, 77, 20);
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.developer__about {
+  font-size: 1.1rem;
+  margin-top: 15px;
+  color: rgba(52, 42, 54, 0.6);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .developer__image:after {

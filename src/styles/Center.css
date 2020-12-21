@@ -19,9 +19,9 @@
 }
 
 .center__slogan {
-  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(52, 14, 63);
-  font-weight: 500;
   line-height: 5vh;
   font-size: 1.1rem;
 }
