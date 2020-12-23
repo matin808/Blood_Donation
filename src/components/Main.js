@@ -2,7 +2,7 @@ import Blood from "../images/blood-donation.svg";
 import "../styles/Main.css";
 import Heart from "../images/heart.svg";
 import Checkup from "../images/checkup.svg";
-import { motion, useViewportScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import Aos from "aos";
 import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
@@ -14,16 +14,11 @@ function Main() {
     Aos.init({ duration: 1000 });
   }, []);
 
-  const { scrollYProgress } = useViewportScroll();
-
   const fadeRight = {
     hidden: { opacity: 0, x: 150 },
     visible: { opacity: 1, x: 0 },
   };
-  const fadeLeft = {
-    hidden: { opacity: 0, x: -150 },
-    visible: { opacity: 1, x: 0 },
-  };
+
 
   return (
     <div className="main">

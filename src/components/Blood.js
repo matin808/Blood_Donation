@@ -1,5 +1,11 @@
 import React from 'react'
 import firebase from 'firebase';
+ import DeleteIcon from '@material-ui/icons/Delete';
+import '../styles/Blood.css';
+import Switch from '@material-ui/core/Switch';
+//import FormGroup from '@material-ui/core/FormGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+//import FormControl from '@material-ui/core/FormControl';
 
 function Blood({bloodData}) {
 
@@ -14,8 +20,16 @@ function Blood({bloodData}) {
             <h3>{bloodData.location}</h3>
             <h3>{bloodData.number}</h3>
 
-        <button onClick = {deleteData}>Delete</button>
+            {/* <FormControlLabel
+          value="start"
+          control={<Switch color="primary" />}
+          label="Available"
+          labelPlacement="start"
+        /> */}
+
+        <button onClick = {deleteData}><DeleteIcon /></button>
         </div>
+
     )
 }
 

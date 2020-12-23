@@ -1,5 +1,6 @@
 import { useState } from "react";
-import firebase from './firebase';
+import firebase from "./firebase";
+import '../styles/Form.css';
 
 function Form() {
   const [name, setName] = useState("");
@@ -8,6 +9,7 @@ function Form() {
   const [number, setNumber] = useState("");
 
   const onChangeName = (e) => {
+   
     setName(e.target.value);
   };
 
@@ -24,18 +26,16 @@ function Form() {
   };
 
   const createData = () => {
-        const bloodRef = firebase.database().ref("BloodData");
-        const bloodReport = {
-            name,
-            bloodGroup,
-            location,
-            number,
-            complete : false,
-        };
-        bloodRef.push(bloodReport);
+    const bloodRef = firebase.database().ref("BloodData");
+    const bloodReport = {
+      name,
+      bloodGroup,
+      location,
+      number,
+      complete: false,
+    };
+    bloodRef.push(bloodReport);
   };
-
-
 
   return (
     <div className="form">
@@ -74,8 +74,7 @@ function Form() {
         type="number"
       />
 
-        <button onClick = {createData}>Post</button>
-
+      <button onClick={createData}>Post</button>
     </div>
   );
 }

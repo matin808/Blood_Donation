@@ -12,7 +12,7 @@ function Center() {
 
         <div className = "row">
         <div class="col-sm-5">
-      <a href = "http://theemcoe.org/" target="_blank"><img src="https://images.shiksha.com/mediadata/images/1588140314php1vfv8e.jpeg" className="img-fluid rounded float-left" alt="..." /></a>
+      <a href = "http://theemcoe.org/"  rel="noreferrer" target="_blank"><img src="https://images.shiksha.com/mediadata/images/1588140314php1vfv8e.jpeg" className="img-fluid rounded float-left" alt="..." /></a>
         </div>
     
         <div class="col-sm-7">
@@ -27,7 +27,7 @@ function Center() {
 
     <div className = "row">
         <div class="col-sm-5">
-          <a href = "https://www.tcsc.edu.in/" target="_blank"> <img src="https://getmyuni.azureedge.net/college-image/big/thakur-college-of-science-and-commerce-tcsc-mumbai.jpg" className="img-fluid rounded float-left" alt="..." /> </a>
+          <a href = "https://www.tcsc.edu.in/"  rel="noreferrer" target="_blank"> <img src="https://getmyuni.azureedge.net/college-image/big/thakur-college-of-science-and-commerce-tcsc-mumbai.jpg" className="img-fluid rounded float-left" alt="..." /> </a>
            
         </div>
        
@@ -44,7 +44,7 @@ function Center() {
 
             <div className = "row">
         <div class="col-sm-5">
-            <a href = "http://www.ruparel.edu/" target="_blank">  <img src="https://www.localbizworld.com/wp-content/uploads/2018/12/dg-ruparel-college-of-arts.jpg" className="img-fluid rounded float-left" alt="..." /> </a>
+            <a href = "http://www.ruparel.edu/"  rel="noreferrer" target="_blank">  <img src="https://www.localbizworld.com/wp-content/uploads/2018/12/dg-ruparel-college-of-arts.jpg" className="img-fluid rounded float-left" alt="..." /> </a>
            
         </div>
        
@@ -60,7 +60,7 @@ function Center() {
 
             <div className = "row">
         <div class="col-sm-5">
-           <a href = "http://xaviers.edu/main/" target="_blank">   <img src="https://www.storypick.com/wp-content/uploads/2017/03/colg.jpg" className="img-fluid rounded float-left" alt="..." /></a>
+           <a href = "http://xaviers.edu/main/"  rel="noreferrer" target="_blank">   <img src="https://www.storypick.com/wp-content/uploads/2017/03/colg.jpg" className="img-fluid rounded float-left" alt="..." /></a>
            
         </div>
        
