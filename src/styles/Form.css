@@ -1,0 +1,92 @@
+.form {
+  font-family: "Rubik", sans-serif;
+}
+
+.form__container {
+  background-color: rgb(198, 243, 209);
+  height: 90vh;
+}
+
+.form__container_two {
+  margin: 50px 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.form__heading {
+  color: rgb(150, 21, 21);
+  font-size: 2.5rem;
+  padding-top: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.form__heading:after {
+  content: "";
+  background: rgb(29, 77, 20);
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 10px auto;
+}
+
+.form__mainImage {
+  height: 63vh;
+}
+
+.form__subHeading {
+  color: green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+.form__input {
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+}
+
+.form__right {
+  display: grid;
+  grid-template-rows: 40px 40px 40px 40px;
+  grid-row-gap: 10px;
+  font-family: Montserrat-Regular, sans-serif;
+}
+
+/* .container-contact1-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+
+.form__btn {
+  min-width: 133px;
+  height: 40px;
+  border-radius: 25px;
+  background: #ce0f0f;
+  font-family: Montserrat-Bold;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.form__btn:hover {
+  background: hsl(123, 78%, 39%);
+}
+
+@media (max-width: 900px) {
+  .form__right {
+    display: none;
+  }
+
+  /* .form__left {
+    margin-left: -250px;
+  } */
+}

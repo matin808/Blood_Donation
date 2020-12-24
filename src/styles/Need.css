@@ -1,0 +1,66 @@
+.needBlood {
+  background-color: rgb(248, 139, 146);
+  padding: 30px;
+}
+
+.need__heading {
+  color: rgb(150, 21, 21);
+  font-size: 2.5rem;
+  padding-top: 5px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.need__heading:after {
+  content: "";
+  background: rgb(29, 77, 20);
+  display: block;
+  height: 3px;
+  width: 150px;
+  margin: 5px auto;
+}
+
+.needBlood__heading {
+  color: rgb(70, 68, 68);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+}
+.needBlood__subheading {
+  color: gray;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  margin-top: 20px;
+}
+.needBlood__search {
+  display: flex;
+  flex: 1;
+  border-radius: 20px;
+  border: none;
+  margin: 0 10px;
+}
+
+.needBlood_section2 {
+  box-sizing: content-box;
+  width: 900px;
+  height: 200px;
+  padding: 20px;
+  margin: 50px 200px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(214, 174, 166) 0%,
+    rgb(231, 204, 168) 40%,
+    rgb(255, 159, 104) 63%,
+    rgb(231, 163, 136) 100%
+  );
+  border-radius: 30px;
+  box-shadow: 12px 13px 15px -2px rgba(20, 20, 20, 0.98);
+}
+
+.need_label {
+  color: rgba(100, 102, 102, 0.932);
+}

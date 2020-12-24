@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import firebase from "./firebase";
 import Blood from "./Blood";
-import Need from "./Need";
+
 
 function BloodData() {
   const [bloodList, setBloodList] = useState();

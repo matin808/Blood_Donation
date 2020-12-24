@@ -1,6 +1,7 @@
 import { useState } from "react";
 import firebase from "./firebase";
-import '../styles/Form.css';
+import "../styles/Form.css";
+import Life from "../images/health-care.png";
 
 function Form() {
   const [name, setName] = useState("");
@@ -9,7 +10,6 @@ function Form() {
   const [number, setNumber] = useState("");
 
   const onChangeName = (e) => {
-   
     setName(e.target.value);
   };
 
@@ -25,7 +25,8 @@ function Form() {
     setNumber(e.target.value);
   };
 
-  const createData = () => {
+  const createData = (e) => {
+    e.preventDefault();
     const bloodRef = firebase.database().ref("BloodData");
     const bloodReport = {
       name,
@@ -35,46 +36,62 @@ function Form() {
       complete: false,
     };
     bloodRef.push(bloodReport);
+
   };
 
   return (
     <div className="form">
-      <h1 className="form__heading">Donate Blood</h1>
+      <div className="form__container">
+        <h1 className="form__heading">Donate Blood</h1>
 
-      <h3 className="form__subHeading">Your Name : </h3>
-      <input
-        className="form__input"
-        onChange={onChangeName}
-        value={name}
-        type="text"
-      />
+        <div className="form__container_two">
+        <div className="form__image form__right">
+          <img className="form__mainImage" src={Life} alt="" />
+        </div>
 
-      <h3 className="form__subHeading">Your Blood Group : </h3>
-      <input
-        className="form__input"
-        onChange={onChangeBloodGroup}
-        value={bloodGroup}
-        type="text"
-      />
+        <form className="form__left">
+          <h3 className="form__subHeading">Name</h3>
+          <input
+         
+            className="form__input"
+            onChange={onChangeName}
+            value={name}
+            type="text"
+            required
+          />
 
-      <h3 className="form__subHeading">Location : </h3>
-      <input
-        className="form__input"
-        onChange={onChangeLocation}
-        value={location}
-        type="text"
-        placeholder="where you are avalable for blood donation"
-      />
+          <h3 className="form__subHeading">Blood Group</h3>
+          <input
+            className="form__input"
+            onChange={onChangeBloodGroup}
+            value={bloodGroup}
+            type="text"
+            required
+          />
 
-      <h3 className="form__subHeading">Your Number : </h3>
-      <input
-        className="form__input"
-        onChange={onChangeNumber}
-        value={number}
-        type="number"
-      />
+          <h3 className="form__subHeading">Location</h3>
+          <input
+            className="form__input"
+            onChange={onChangeLocation}
+            value={location}
+            type="text"
+            required
+            placeholder="where you are avalable for blood donation"
+          />
 
-      <button onClick={createData}>Post</button>
+          <h3 className="form__subHeading">Number</h3>
+          <input
+            className="form__input"
+            onChange={onChangeNumber}
+            value={number}
+            type="number"
+            required
+          />
+
+          <button type = "submit" className = "form__btn" onClick={createData}>Post</button>
+        </form>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import firebase from "firebase";
-//import Switch from '@material-ui/core/Switch';
-//import FormGroup from '@material-ui/core/FormGroup';
-//import FormControlLabel from '@material-ui/core/FormControlLabel';
+import "../styles/Need.css";
 
 function Need() {
   const [NeedbloodList, setNeedBloodList] = useState();
@@ -26,17 +24,17 @@ function Need() {
   };
 
   return (
-    <div>
-      <h1>Need Blood</h1>
-      <h5>
+    <div className = "needBlood">
+      <h1 className = "need__heading">Need Blood</h1>
+      <h5 className = "needBlood__subheading">
         Enter Location :
-        <input
+        <input className = "needBlood__search"
           type="text"
-          placeholder="Enter Your Location"
+          // placeholder="city, State pin code"
           onChange={handleSearchInput}
         />{" "}
       </h5>
-      <div className="blood">
+      <div className="needBlood_section">
         {NeedbloodList
           ? NeedbloodList.filter((val) => {
               if (searchTerm === "") {
@@ -47,18 +45,14 @@ function Need() {
                 return val;
               }
             }).map((bg) => (
-              <>
-                <h3>{bg.name}</h3>
-                <h3>{bg.bloodGroup}</h3>
-                <h3>{bg.location}</h3>
-                <h3>{bg.number}</h3>
-                {/* <FormControlLabel
-          value="start"
-          control={<Switch color="primary" />}
-          label="Available"
-          labelPlacement="start"
-        /> */}
-              </>
+              <div className="needBlood_section2">
+                <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Name : </label> {bg.name}</h3>
+                <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Blood Group : </label> {bg.bloodGroup}</h3>
+                <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Location : </label> {bg.location}</h3>
+                <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Number : </label> {bg.number}</h3>
+             
+              
+              </div>
             ))
           : ""}
       </div>

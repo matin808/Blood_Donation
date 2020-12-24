@@ -75,7 +75,7 @@ function Main() {
       <div className="container main__second">
         <h1 className="main__second__center">Benefits Of Blood Donation:</h1>
         <div className="row">
-          {/* <div class="col-sm-6"> */}
+          
           <div class="col-md-6">
             <img
               data-Aos="fade-right"
@@ -84,7 +84,7 @@ function Main() {
               alt=""
             />
           </div>
-          {/* <div class="col-sm-6 main__second__heart"> */}
+        
           <div class="col-md-6 main__second__heart">
             <p data-Aos="fade-left" className="main__second__heartbenefits">
               <b className="main__second__bold">Blood donation</b> is beneficial
