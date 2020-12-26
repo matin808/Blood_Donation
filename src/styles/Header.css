@@ -1,11 +1,7 @@
 .header {
   background-color: #ffffff;
 }
-/* position: fixed;
-top: 0;
-left: 0;
-right: 0;
-z-index: 1; */
+
 .header__logo {
   height: 10vh;
   width: 12vh;
@@ -50,5 +46,14 @@ z-index: 1; */
     height: 8vh;
     width: 10vh;
     padding: 5px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header__brandName {
+    font-family: cursive;
+    font-size: 2rem !important;
+    color: red;
+    font-weight: 900;
   }
 }

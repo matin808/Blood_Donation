@@ -27,6 +27,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 500;
 }
+
 .needBlood__subheading {
   color: gray;
   font-size: 2rem;
@@ -63,4 +64,50 @@
 
 .need_label {
   color: rgba(100, 102, 102, 0.932);
+}
+
+@media screen and (max-width: 1000px) and (min-width: 250px) {
+  .needBlood {
+    background-color: rgb(248, 139, 146);
+    padding: 10px;
+  }
+
+  .needBlood__subheading {
+    color: gray;
+    font-size: 1.1rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .needBlood__search {
+    display: flex;
+    /* flex: 1; */
+    border-radius: 20px;
+    border: none;
+    /* margin: 0 10px; */
+  }
+
+  .needBlood_section2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 20px 5px;
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgb(214, 174, 166) 0%,
+      rgb(231, 204, 168) 40%,
+      rgb(255, 159, 104) 63%,
+      rgb(231, 163, 136) 100%
+    );
+    border-radius: 30px;
+    box-shadow: 12px 13px 15px -2px rgba(20, 20, 20, 0.98);
+  }
 }
