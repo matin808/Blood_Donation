@@ -42,6 +42,12 @@
   border-radius: 20px !important;
 }
 
+.main__class_btn {
+  display: flex;
+  justify-content: initial;
+  align-items: initial;
+}
+
 .btn-first {
   background-color: darkorange !important;
 }
@@ -72,8 +78,11 @@
 }
 
 .main__second__center {
-  text-align: center;
-  margin-top: -20px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  /* margin-top: -20px; */
   color: darkorange;
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
@@ -117,50 +126,61 @@
   line-height: 25px;
 }
 
-@media screen and (max-width: 350px) {
-  .main__image {
-    margin-left: 10px;
-    width: 45vh;
+@media screen and (max-width: 319px) and (min-width: 150px) {
+  .main__right {
+    display: none;
   }
-}
-
-@media screen and (max-width: 750px) {
+  .main__hr {
+    display: none;
+  }
   .main__second__center {
-    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 25px;
+    font-size: 20px; */
   }
-
+  .main__second__image {
+    margin-top: 40px;
+    width: 47vh;
+  }
   .main__third__image {
+    width: 47vh;
     margin-left: 10px;
-    padding-bottom: 170px;
+  }
+  .main__quote {
+    padding-top: 8vh;
+    line-height: 55px;
+    font-size: 40px;
+    font-family: "Fredoka One", cursive;
   }
 }
 
-@media screen and (max-width: 410px) {
-  .main__second__center {
-    margin-top: 170px;
+@media screen and (max-width: 500px) and (min-width: 320px) {
+  .main__right {
+    display: none;
+  }
+  .main__hr {
+    display: none;
+  }
+  /* .main__second__center {
+    font-size: 40px;
+    margin-top: -100px;
+  } */
+
+  .btn {
+    margin: 10px 5px !important;
+    width: 120px !important;
+    padding: 10px !important;
+    border-radius: 20px !important;
   }
 
-  .main__third__image {
-    margin-left: 10px;
-    padding-bottom: 170px;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  .main__second__center {
-    margin-top: 345px;
-  }
-
-  .main__third__image {
-    margin-left: 10px;
-    padding-bottom: 100px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .main__image {
-    margin-left: 10px;
+  .main__second__image {
+    margin-top: 40px;
     width: 50vh;
+  }
+  .main__third__image {
+    width: 47vh;
+    margin-left: 10px;
   }
   .main__quote {
     padding-top: 8vh;

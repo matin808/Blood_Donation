@@ -36,6 +36,9 @@ function Main() {
                 A <b className="main__bold">Drop</b> from you is an ocean of{" "}
                 <b className="main__bold">Life </b>for someone else
               </motion.h3>
+
+    <div className = "main__class_btn">
+
               <button
                 onClick={() => {
                   history.push("/needBlood");
@@ -52,6 +55,7 @@ function Main() {
               >
                 Donate Blood
               </button>
+              </div>
             </div>
           </div>
           {/* <div class="col-sm-6"> */}
@@ -69,7 +73,7 @@ function Main() {
             </div>
           </div>
         </div>
-        <hr />
+        <hr className = "main__hr" />
       </div>
 
       <div className="container main__second">
@@ -78,7 +82,7 @@ function Main() {
           
           <div class="col-md-6">
             <img
-              data-Aos="fade-right"
+              data-Aos="fade-down"
               className="main__second__image"
               src={Heart}
               alt=""
@@ -132,7 +136,7 @@ function Main() {
           {/* <div class="col-sm-6"> */}
           <div class="col-md-6">
             <img
-              data-Aos="fade-up-left"
+              data-Aos="fade-up"
               className="main__third__image"
               src={Checkup}
               alt=""

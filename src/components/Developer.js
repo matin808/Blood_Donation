@@ -52,9 +52,8 @@ function Developer() {
             <h2 className="developer__name">Matin Kadri</h2>
             <h3 className="developer__skill">Developer</h3>
             <p className="developer__about">
-              Hey, This is Abdul Matin Kadri, I am MERN Stack Developer have
-              done Intership at Cloud Counselage as a Web Developer. And
-              Currently Working as a Freelancer.
+              Hey, This is Abdul Matin Kadri, I am MERN Stack Developer and
+              currently working as a Freelancer. And contributed towards front-end and back-end of our website.
             </p>
           </div>
 
