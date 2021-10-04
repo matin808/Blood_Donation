@@ -47,6 +47,13 @@
     width: 10vh;
     padding: 5px;
   }
+ 
+}
+
+@media screen and (max-width: 360px) {
+  .header__brandName span{
+    display: none;
+}
 }
 
 @media screen and (max-width: 750px) {

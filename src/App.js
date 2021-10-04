@@ -4,7 +4,6 @@ import Main from "./components/Main.js";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Center from "./components/Center";
-import Developer from "./components/Developer";
 import About from "./components/About";
 import Donate from "./components/Donate";
 import Need from "./components/Need";
@@ -27,12 +26,6 @@ function App() {
           <Route path="/about">
             <Header />
             <About />
-            <Footer />
-          </Route>
-
-          <Route path="/Developer">
-            <Header />
-            <Developer />
             <Footer />
           </Route>
 

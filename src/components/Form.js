@@ -76,7 +76,7 @@ function Form() {
             value={location}
             type="text"
             required
-            placeholder="where you are avalable for blood donation"
+            
           />
 
           <h3 className="form__subHeading">Number</h3>

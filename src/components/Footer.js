@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 import AppsSharpIcon from '@material-ui/icons/AppsSharp';
-import CodeIcon from '@material-ui/icons/Code';
+
 import InfoIcon from '@material-ui/icons/Info';
 import DirectionsRunSharpIcon from '@material-ui/icons/DirectionsRunSharp';
 
@@ -23,7 +23,7 @@ function Footer() {
 
                     <Link to = "/"> <li className = "footer__link"> <AppsSharpIcon />Home</li></Link>
                     <Link to = "/center"><li className = "footer__link"><DirectionsRunSharpIcon />Centers</li></Link>
-                    <Link to = "/developer"><li className = "footer__link"><CodeIcon />Developer</li></Link>
+                    {/* <Link to = "/developer"><li className = "footer__link"><CodeIcon />Developer</li></Link> */}
                     <Link to = "/about"> <li className = "footer__link"><InfoIcon />About</li></Link>
                     </ul>
          </div>

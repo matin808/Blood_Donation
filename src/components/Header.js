@@ -22,7 +22,7 @@ import {
         <Link to = "/">
         <img className = "header__logo" src = {Logo} alt="" />
         <NavbarBrand className = "header__brandName">
-        We For You
+        <span>We For You</span>
         </NavbarBrand>
         </Link>
         <NavbarToggler className="header__toggle navbar-light" onClick={toggle} />
@@ -34,9 +34,9 @@ import {
               <NavItem>
               <NavLink className = "header__ul" href="/center/">Centers</NavLink>
             </NavItem>
-              <NavItem>
+              {/* <NavItem>
               <NavLink className = "header__ul" href="/developer/">Developer</NavLink>
-            </NavItem>
+            </NavItem> */}
               <NavItem>
               <NavLink className = "header__ul" href="/about/">About</NavLink>
             </NavItem>

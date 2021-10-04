@@ -1,4 +1,4 @@
-.developer {
+/* .developer {
   margin: 35px 0;
 }
 
@@ -36,6 +36,7 @@
 .developer__image {
   border-radius: 100% !important;
   /* margin-left: 130px; */
+  /*
   opacity: 1;
   display: block;
   position: relative;
@@ -118,4 +119,5 @@
 
 .developer__image:hover .developer__ul {
   opacity: 1;
-}
+} 
+*/

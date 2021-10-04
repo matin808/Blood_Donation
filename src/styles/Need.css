@@ -82,11 +82,10 @@
   }
 
   .needBlood__search {
-    display: flex;
-    /* flex: 1; */
-    border-radius: 20px;
+    border-radius: 1rem;
     border: none;
-    /* margin: 0 10px; */
+     margin: 0 10px; 
+      
   }
 
   .needBlood_section2 {
@@ -111,3 +110,4 @@
     box-shadow: 12px 13px 15px -2px rgba(20, 20, 20, 0.98);
   }
 }
+
