@@ -25,7 +25,7 @@ function Blood({ bloodData }) {
         </h3>
         <h3 className="blood__data_heading">
           <label className="blood__data_label" htmlFor="">
-            Location :{" "}
+            Pin Code :{" "}
           </label>{" "}
           {bloodData.location}
         </h3>

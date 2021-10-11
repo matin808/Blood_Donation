@@ -3,7 +3,6 @@ import BloodData from './BloodData';
 
 
 function Donate() {
-
     return (
         <div className = "donate">
         <Form />   

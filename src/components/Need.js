@@ -49,9 +49,7 @@ function Need() {
                 <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Name : </label> {bg.name}</h3>
                 <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Blood Group : </label> {bg.bloodGroup}</h3>
                 <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Location : </label> {bg.location}</h3>
-                <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Number : </label> {bg.number}</h3>
-             
-              
+                <h3 className = "needBlood__heading"><label className = "need_label" htmlFor="">Number : </label> {bg.number}</h3>              
               </div>
             ))
           : ""}

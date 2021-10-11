@@ -36,7 +36,6 @@ function Form() {
       complete: false,
     };
     bloodRef.push(bloodReport);
-
   };
 
   return (
@@ -69,7 +68,7 @@ function Form() {
             required
           />
 
-          <h3 className="form__subHeading">Location</h3>
+          <h3 className="form__subHeading">Pin Code</h3>
           <input
             className="form__input"
             onChange={onChangeLocation}

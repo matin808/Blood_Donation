@@ -2,7 +2,6 @@ import {useState} from 'react';
 import Logo from '../images/logo.png';
 import '../styles/Header.css';
 import {Link} from "react-router-dom";
-
 import {
   Collapse,
   Navbar,

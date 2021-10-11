@@ -73,36 +73,7 @@ function Center() {
         </div>
         <hr />
 
-        {/* third College */}
-
-        <div className="row">
-          <div class="col-sm-5">
-            <a href="http://www.ruparel.edu/" rel="noreferrer" target="_blank">
-              {" "}
-              <img  data-Aos="fade-right"
-                src="https://www.localbizworld.com/wp-content/uploads/2018/12/dg-ruparel-college-of-arts.jpg"
-                className="img-fluid rounded float-left"
-                alt="..."
-              />{" "}
-            </a>
-          </div>
-
-          <div class="col-sm-7" data-Aos="fade-left">
-            <h1 className="center__heading">Ruparel College</h1>
-            <p className="center__address">
-              Senapati Bapat Marg Mahim, Mumbai 400016 Maharashtra, India
-            </p>{" "}
-            <hr />
-            <p className="center__slogan" >
-              Blood Donation Campaign will be held between the month of
-              February-march. It will take few minutes for you but a life time
-              for somebody.
-            </p>
-          </div>
-        </div>
-        <hr />
-
-        {/* fourth College */}
+               {/* fourth College */}
 
         <div className="row">
           <div class="col-sm-5">
